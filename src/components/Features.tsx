@@ -4,7 +4,7 @@ import React from 'react'
 function Features() {
   return (
     <>
-    <div className='container grid grid-cols-2 gap-5  mt-10'>
+    <div className='container grid  grid-cols-1 lg:grid-cols-2 gap-5  mt-10'>
       <div>
         <h2 className='text-3xl font-semibold'>We builts Mobile Apps <br />& Websites for Business Solution.</h2>
         <p className='max-w-xs my-2 text-gray-500'>Elevate your business with our tailored mobile apps and websites. Drive engagement and achieve measurable results with our expert team. Stay ahead in the digital age.</p>
@@ -14,7 +14,7 @@ function Features() {
         <Image src="/mobileApp.png" alt="mobileapp" height={320} width={320}/>
       </div>
     </div>
-    <div className='container grid grid-cols-2 gap-5 mt-10'>
+    <div className='container grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10'>
      <div className='flex '>
         <Image src="/services.png" alt="mobileapp" height={270} width={270}/>
       </div>
