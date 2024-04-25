@@ -15,9 +15,7 @@ export default function Home() {
      <About />
      <Features />
      <CaseStudies/>
-     {/* @ts-expect-error Async Server Component */}
      <Testimonials />
-     {/* @ts-expect-error Async Server Component */}
      <Projects />
      <Contact />
     </div>
