@@ -3,9 +3,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='container text-center mx-auto bg-white mt-10  '>
+    <div className='container lg:text-center mx-auto bg-white mt-10  '>
         <h2 className='font-semibold text-gray-900 text-4xl'>How does Tapinn works</h2>
-        <p className='mt-4 text-center text-lg font-semibold text-gray-500 max-w-5xl'>
+        <p className='mt-4 text-left lg:text-center text-lg font-semibold text-gray-500 max-w-5xl'>
         We provides a user-friendly, all-in-one operational toolkit designed meet our customers' needs effectively. With a seamless interface and comprehensive features,our theme empowers businesses to optimize their operations effortlessly.
         </p>
         <div className='py-5 my-5 grid grid-cols-1  lg:grid-cols-3 gap-3'>

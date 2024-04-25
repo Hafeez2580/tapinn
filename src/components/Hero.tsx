@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 function Hero() {
   return (
-    <div className='container text-center mx-auto bg-[f7f8fa]'>
-      <h1 className='font-extrabold text-gray-800 text-4xl'>Single tap solutions for your online business & Marketing. 
+    <div className='container text-left lg:text-center mx-auto bg-[f7f8fa]'>
+      <h1 className='font-extrabold text-gray-800 text-2xl lg:text-4xl'>Single tap solutions for your online business & <br/>Marketing. 
       </h1>
        <p className='font-semibold text-gray-500 mt-4'>Simple is a simple template with a creative design that solves all your marketing and SEO queries.</p>
        <div className='mt-4'>
